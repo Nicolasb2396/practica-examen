@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: lightgoldenrodyellow;
+}
+
+.header {
+    padding: 10px;
+    margin-top: 30px;
+    color: orange;
+    text-decoration: underline;
+    font-size: 18px;
+}
+
+.section {
+    padding: 20px 50px 0; 
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 200px; 
+    overflow: hidden; 
+}
+
+.smr {
+    background-color: #ffcccc;
+
+}
+
+.dam {
+    background-color: #808080;
+}
+
+.asir {
+    background-color: #99ccff;
+    
+}
+
+.section img {
+    width: 200px;
+    height: 900px;
+    margin-top: 10px;
+}
+
+img.ASIRimg{
+    margin-left: 750px;
+    width:fit-content;
+    height: fit-content;
+    margin-top: 10px;
+}
+img.SMRimg{
+    margin-left: 150px;
+    width:fit-content;
+    height: fit-content;
+}
+img.DAMimg{
+    margin-left: 430px;
+    width:fit-content;
+    height: fit-content;
+    object-position: top;
+}
+
+
+.link1 {
+    font-weight: bold;
+    text-decoration: underline;
+    color: blue;
+    margin-left: -830px;
+}
+.link2 {
+    font-weight: bold;
+    text-decoration: underline;
+    color: blue;
+    margin-left: -20px;
+}
+.link3 {
+    font-weight: bold;
+    text-decoration: underline;
+    color: blue;
+    margin-left: 370px;
+}
+
+.footer {
+    background-color: #ffff00;
+    padding: 10px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.footer p {
+    color: blue;
+}
+
+.footer p span {
+    color: red;
+}
